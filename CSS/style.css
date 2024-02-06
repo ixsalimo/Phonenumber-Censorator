@@ -1,0 +1,48 @@
+* {
+    font-family: "Poppins";
+}
+* , html , body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+    height: 100vh;
+}
+
+table caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+table , th , td {
+    border: 1px solid;
+}
+
+table input {
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    text-align: center;
+    color: #00F;
+}
+
+table input , #phonenumber {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#phonenumber {
+    text-align: center;
+}
+
+#output {
+    width: 100%;
+    font-size: 0.9rem;
+    font-family: "Courier New", Courier, monospace;
+    padding: 0 0.5rem;
+}
